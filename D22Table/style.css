@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  border: 0;
+}
+.main-Sheet {
+  margin: 10px;
+  width: 55%;
+  position: relative;
+  left: 230px;
+  border: 10px solid salmon;
+  background-color: lightpink;
+}
+.board-Details {
+  text-align: center;
+  background-color: aqua;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.personal-Details-Div {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.personal-Info {
+  line-height: 30px;
+}
+.img-Div,
+img {
+  width: 120px;
+}
+
+.tabel-sheet {
+  border: 2px solid gray;
+  background-color: lightpink;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 2px solid gray;
+}
+
+.division {
+  display: flex;
+  justify-content: end;
+}
+
+p {
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
